@@ -1,0 +1,105 @@
+body {
+	background-color: #eaeaea
+}
+.title {
+	font-size: 30px;
+	text-align:center
+}
+.container-image img {
+	max-height: 330px;
+	/*margin: 0 auto;*/
+}
+.margin-kechweb {
+	margin: 200px auto;
+}
+
+/* MOCKUP DESKTOP */
+.holder-desktop {
+	width : 964px;
+	height: 964px;
+	margin: 20px auto;
+	text-align: center;
+	position: relative;
+	background-image : url('../img/imac-mockup.png')
+}
+.holder-desktop .preview-desktop {
+	position : absolute;
+	top : 38px;
+	left:36px;
+	width: 892px;
+	height: 510px;
+	overflow: hidden
+}
+.holder-desktop .preview-desktop img {
+	margin-top:0;
+	width: 100%;
+	-webkit-transition:all 15s ease-in-out;
+	-moz-transition:all 15s ease-in-out;
+	-o-transition:all 15s ease-in-out;
+	transition:all 15s ease-in-out
+}
+.holder-desktop .preview-desktop img:hover{
+	margin-top: -4120px
+}
+
+/* MOCKUP TABLET */
+.holder-tablet {
+	width : 771px;
+	height: 541px;
+	margin: 100px auto;
+	text-align: center;
+	position: relative;
+	background-image : url('../img/mockup-tablet.png')
+}
+.holder-tablet .preview-tablet {
+	position : absolute;
+	top : 31px;
+	left:73px;
+	width: 631px;
+	height: 474px;
+	overflow: hidden
+}
+.holder-tablet .preview-tablet img {
+	margin-top:0;
+	width: 100%;
+	-webkit-transition:all 15s ease-in-out;
+	-moz-transition:all 15s ease-in-out;
+	-o-transition:all 15s ease-in-out;
+	transition:all 15s ease-in-out
+}
+.holder-tablet .preview-tablet img:hover{
+	margin-top: -3241px
+}
+
+/* MOCKUP MOBILE */
+.holder-mobile {
+	width : 386px;
+	height: 784px;
+	margin: 10px auto;
+	text-align: center;
+	position: relative;
+	background-image : url('../img/mockup-mobile.png')
+}
+.holder-mobile .preview-mobile {
+	position : absolute;
+	top : 22px;
+	left:25px;
+	width: 336px;
+	height: 727px;
+	overflow: hidden;
+	-webkit-border-radius: 36px;
+	-moz-border-radius: 36px;
+	-o-border-radius: 36px;
+	border-radius: 36px
+}
+.holder-mobile .preview-mobile img {
+	margin-top:0;
+	width: 100%;
+	-webkit-transition:all 15s ease-in-out;
+	-moz-transition:all 15s ease-in-out;
+	-o-transition:all 15s ease-in-out;
+	transition:all 15s ease-in-out
+}
+.holder-mobile .preview-mobile img:hover{
+	margin-top: -7504px
+}
